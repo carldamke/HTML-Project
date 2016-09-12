@@ -1,0 +1,60 @@
+<!doctype>
+<html>
+   <head>
+      <title>Rechner | G7E Homepage</title>
+      <meta charset="utf-8"/>
+   </head>
+   <body>
+      <style>
+      body {
+          background-color: black;
+      }
+      
+      h1 {
+          color: white;
+          text-align: center;
+          font-size: 40;
+      }
+      
+      p {
+          color: white;
+          text-align: center;
+      }
+      
+      a {
+         text-decoration: blue;
+      }
+      
+      #img1 {
+         text-align: center;
+         border-radius: 40px;
+      }
+      
+      #btn1 {
+         text-align: center;
+      }
+      
+      </style>
+      <p>Drücke den Knopf nachdem du zwei Zahlen eingegeben hast.</p>
+         <div id="btn1"><button onclick="myFunction()">Rechnen</button></div>
+         <br/>
+         <br/>Enter first number:
+         <input type="text" id="txt1" name="text1">Enter second number:
+         <input type="text" id="txt2" name="text2">
+         <p id="demo"></p>
+         <script>
+            function myFunction() {
+            var y = document.getElementById("txt1").value;
+            var z = document.getElementById("txt2").value;
+            var x = +y + +z;
+            document.getElementById("demo").innerHTML = x;
+            }
+         </script>
+       <h1>Der Rechner befinfet sich in einer Testphase!</h1>
+       <p>Er funktioniert ausschließlich zum addieren zweier Zahlen!</p>
+       <a href="index.html">
+          <p>Zurück zur Hauptseite</p>
+       </a>
+       <p>©2016 Carl Damke</p>
+   </body>
+</html>

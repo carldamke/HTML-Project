@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<title>Login System</title>
+	<meta charset="utf-8" />
+</head>
+<body>
+	<style>
+	body {
+		background-color: black;
+	}
+	
+	h1 {
+		color: white;
+		text-align: center;
+	}
+	
+	p {
+		color: white;
+		text-align: center;
+	}
+	
+	#loginbox {
+		text-align: center;
+	}
+	
+	#loginbutton {
+	   border-radius: 8px;
+	}
+	
+	#username {
+	   border-radius: 8px;
+	}
+	
+	#password {
+      border-radius: 8px;
+   }
+	
+	</style>
+	<h1>Login System</h1>
+	<div id="loginbox">
+		<form action="users/admin.html" id="form">
+			<input id="username" type="text" />
+			<input id="password" type="password" />
+			<button type="button" onclick="getInfo()" id="loginbutton" >Login</button>
+		</form>
+	</div>
+	<script src="login.js"></script>
+	<a href="mailto:carl.simon.damke@gmail.com?subject=Accounterstellung (G7E)&body=Ich habe noch keinen Account, bitte erstelle mir einen unter folgenden Daten:"target="_blank">
+      <p>Noch keinen Account?</p>
+   </a>
+	<a href="mailto:carl.simon.damke@gmail.com?subject=Passwort auf G7E vergessen&body=Hallo, ich habe mein Passwort auf G7E vergessen. Von daher möchte ich:" target="_blank">
+      <p>Passwort Vergessen?</p>
+   </a>
+	<a href="index.html">
+      <p>Zurück zum Index</p>
+   </a>
+	<p>©2016 Carl Damke</p>
+</body>
+</html>
